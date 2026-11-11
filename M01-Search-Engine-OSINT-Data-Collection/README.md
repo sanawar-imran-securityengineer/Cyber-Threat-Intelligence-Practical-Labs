@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/ai.png" alt="Air University" width="180"/>
+<img src="images/ai.png" alt="Air University" width="450"/>
 
 # 🕵️ Cyber Threat Intelligence: Lab Task Report
 
@@ -13,6 +13,8 @@
 ![Tools](https://img.shields.io/badge/Tools-Nmap%20%7C%20Recon--ng%20%7C%20theHarvester-purple?style=for-the-badge)
 
 </div>
+
+---
 
 ## 📑 Table of Contents
 
@@ -73,7 +75,9 @@ This report documents the hands-on **Cyber Threat Intelligence (CTI)** lab tasks
 The **Footholds** category of the Google Hacking Database lists dorks that reveal pages and files which can give an attacker an initial way into a system.
 
 <div align="center">
-<img src="images/Screenshot_2.png" alt="Screenshot 2" width="80%"/><br/><br/>
+
+<img src="images/screenshot2.png" alt="screenshot2" width="80%"/><br/><br/>
+<img src="images/screenshot3.png" alt="screenshot3" width="80%"/><br/><br/>
 <sub><i>GHDB "Footholds" category and an exposed Joomla administrator directory index</i></sub>
 
 </div>
@@ -84,7 +88,7 @@ The exposed manifest file of the `com_admin` component shows the site is running
 
 <div align="center">
 
-<img src="images/Screenshot_3.png" alt="Screenshot 3" width="80%"/><br/><br/>
+<img src="images/screenshot4.png" alt="screenshot4" width="80%"/><br/><br/>
 <sub><i>com_admin XML manifest exposing the exact Joomla version</i></sub>
 
 </div>
@@ -113,7 +117,7 @@ Adding `?public=true` bypasses the authorization check that normally restricts t
 
 <div align="center">
 
-<img src="images/Screenshot_4.png" alt="Screenshot 4" width="60%"/><br/><br/>
+<img src="images/screenshot5.png" alt="screenshot5" width="60%"/><br/><br/>
 <sub><i>CVE-2023-23752 vulnerability details and request analysis</i></sub>
 
 </div>
@@ -132,17 +136,17 @@ Dork results show how configuration files and open directory listings leak secre
 
 <div align="center">
 
-<img src="images/Screenshot_5.png" alt="Screenshot 5" width="80%"/><br/><br/>
-<img src="images/Screenshot_6.png" alt="Screenshot 6" width="80%"/><br/><br/>
-<img src="images/Screenshot_7.png" alt="Screenshot 7" width="80%"/><br/><br/>
+<img src="images/screenshot6.png" alt="screenshot6" width="80%"/><br/><br/>
+<img src="images/screenshot7.png" alt="screenshot7" width="80%"/><br/><br/>
+<img src="images/screenshot8.png" alt="screenshot8" width="80%"/><br/><br/>
 <sub><i>Sensitive data exposed in search results, web.config and config.inc.php</i></sub>
 
 </div>
 <div align="center">
 
-<img src="images/Screenshot_8.png" alt="Screenshot 8" width="80%"/><br/><br/>
-<img src="images/Screenshot_9.png" alt="Screenshot 9" width="80%"/><br/><br/>
-<img src="images/Screenshot_10.png" alt="Screenshot 10" width="80%"/><br/><br/>
+<img src="images/screenshot9.png" alt="screenshot9" width="80%"/><br/><br/>
+<img src="images/screenshot10.png" alt="screenshot10" width="80%"/><br/><br/>
+<img src="images/screenshot11.png" alt="screenshot11" width="80%"/><br/><br/>
 <sub><i>Open directory listings: shell.php search and dzs-videogallery plugin folders</i></sub>
 
 </div>
@@ -151,7 +155,7 @@ Dork results show how configuration files and open directory listings leak secre
 
 <div align="center">
 
-<img src="images/Screenshot_11.png" alt="Screenshot 11" width="70%"/><br/><br/>
+<img src="images/screenshot12.png" alt="screenshot12" width="70%"/><br/><br/>
 <sub><i>Plugin JavaScript where user-controlled slider data reaches a request</i></sub>
 
 </div>
@@ -166,7 +170,7 @@ This task uses further GHDB categories to locate files that hold credentials or 
 
 <div align="center">
 
-<img src="images/Screenshot_12.png" alt="Screenshot 12" width="70%"/><br/><br/>
+<img src="images/screenshot13.png" alt="screenshot13" width="70%"/><br/><br/>
 <sub><i>GHDB category: Files Containing Passwords</i></sub>
 
 </div>
@@ -175,10 +179,10 @@ This task uses further GHDB categories to locate files that hold credentials or 
 
 <div align="center">
 
-<img src="images/Screenshot_13.png" alt="Screenshot 13" width="80%"/><br/><br/>
-<img src="images/Screenshot_14.png" alt="Screenshot 14" width="80%"/><br/><br/>
-<img src="images/Screenshot_15.png" alt="Screenshot 15" width="80%"/><br/><br/>
-<img src="images/Screenshot_16.png" alt="Screenshot 16" width="80%"/><br/><br/>
+<img src="images/screenshot14.png" alt="screenshot14" width="80%"/><br/><br/>
+<img src="images/screenshot15.png" alt="screenshot15" width="80%"/><br/><br/>
+<img src="images/screenshot16.png" alt="screenshot16" width="80%"/><br/><br/>
+<img src="images/screenshot17.png" alt="screenshot17" width="80%"/><br/><br/>
 <sub><i>GHDB category: Vulnerable Files, with dork searches and results</i></sub>
 
 </div>
@@ -187,9 +191,9 @@ This task uses further GHDB categories to locate files that hold credentials or 
 
 <div align="center">
 
-<img src="images/Screenshot_17.png" alt="Screenshot 17" width="80%"/><br/><br/>
-<img src="images/Screenshot_18.png" alt="Screenshot 18" width="80%"/><br/><br/>
-<img src="images/Screenshot_19.png" alt="Screenshot 19" width="80%"/><br/><br/>
+<img src="images/screenshot18.png" alt="screenshot18" width="80%"/><br/><br/>
+<img src="images/screenshot19.png" alt="screenshot19" width="80%"/><br/><br/>
+<img src="images/screenshot20.png" alt="screenshot20" width="80%"/><br/><br/>
 <sub><i>GHDB category: Files Containing Juicy Info, with dork searches and results</i></sub>
 
 </div>
@@ -200,9 +204,9 @@ Example dork: `intitle:"Index of" intext:"php" site:*.com.*`
 
 <div align="center">
 
-<img src="images/Screenshot_20.png" alt="Screenshot 20" width="80%"/><br/><br/>
-<img src="images/Screenshot_21.png" alt="Screenshot 21" width="80%"/><br/><br/>
-<img src="images/Screenshot_22.png" alt="Screenshot 22" width="80%"/><br/><br/>
+<img src="images/screenshot21.png" alt="screenshot21" width="80%"/><br/><br/>
+<img src="images/screenshot22.png" alt="screenshot22" width="80%"/><br/><br/>
+<img src="images/screenshot23.png" alt="screenshot23" width="80%"/><br/><br/>
 <sub><i>Open directory indexes returned for PHP-related folders</i></sub>
 
 </div>
@@ -217,9 +221,9 @@ Domain relationship graph, malicious-verdict votes and files that communicate wi
 
 <div align="center">
 
-<img src="images/Screenshot_23.png" alt="Screenshot 23" width="80%"/><br/><br/>
-<img src="images/Screenshot_24.png" alt="Screenshot 24" width="80%"/><br/><br/>
-<img src="images/Screenshot_25.png" alt="Screenshot 25" width="80%"/><br/><br/>
+<img src="images/screenshot24.png" alt="screenshot24" width="80%"/><br/><br/>
+<img src="images/screenshot25.png" alt="screenshot25" width="80%"/><br/><br/>
+<img src="images/screenshot26.png" alt="screenshot26" width="80%"/><br/><br/>
 <sub><i>ThreatCrowd domain analysis</i></sub>
 
 </div>
@@ -230,9 +234,9 @@ Search engine for internet-connected assets, services and banners.
 
 <div align="center">
 
-<img src="images/Screenshot_26.png" alt="Screenshot 26" width="80%"/><br/><br/>
-<img src="images/Screenshot_27.png" alt="Screenshot 27" width="80%"/><br/><br/>
-<img src="images/Screenshot_28.png" alt="Screenshot 28" width="80%"/><br/><br/>
+<img src="images/screenshot27.png" alt="screenshot27" width="80%"/><br/><br/>
+<img src="images/screenshot28.png" alt="screenshot28" width="80%"/><br/><br/>
+<img src="images/screenshot29.png" alt="screenshot29" width="80%"/><br/><br/>
 <sub><i>ZoomEye search and results</i></sub>
 
 </div>
@@ -243,7 +247,7 @@ Source-code search engine used to find sites sharing specific code or signatures
 
 <div align="center">
 
-<img src="images/Screenshot_29.png" alt="Screenshot 29" width="70%"/><br/><br/>
+<img src="images/screenshot30.png" alt="screenshot30" width="70%"/><br/><br/>
 <sub><i>PublicWWW results</i></sub>
 
 </div>
@@ -254,10 +258,10 @@ Maps hosting, networks, services and server banners for a domain.
 
 <div align="center">
 
-<img src="images/Screenshot_30.png" alt="Screenshot 30" width="80%"/><br/><br/>
-<img src="images/Screenshot_31.png" alt="Screenshot 31" width="80%"/><br/><br/>
-<img src="images/Screenshot_32.png" alt="Screenshot 32" width="80%"/><br/><br/>
-<img src="images/Screenshot_33.png" alt="Screenshot 33" width="80%"/><br/><br/>
+<img src="images/screenshot31.png" alt="screenshot31" width="80%"/><br/><br/>
+<img src="images/screenshot32.png" alt="screenshot32" width="80%"/><br/><br/>
+<img src="images/screenshot33.png" alt="screenshot33" width="80%"/><br/><br/>
+<img src="images/screenshot34.png" alt="screenshot34" width="80%"/><br/><br/>
 <sub><i>DNSDumpster results</i></sub>
 
 </div>
@@ -283,10 +287,10 @@ After installing and connecting the **Tor Browser**, dark-web sources were searc
 
 <div align="center">
 
-<img src="images/Screenshot_34.png" alt="Screenshot 34" width="80%"/><br/><br/>
-<img src="images/Screenshot_35.png" alt="Screenshot 35" width="80%"/><br/><br/>
-<img src="images/Screenshot_36.png" alt="Screenshot 36" width="80%"/><br/><br/>
-<img src="images/Screenshot_37.png" alt="Screenshot 37" width="80%"/><br/><br/>
+<img src="images/screenshot35.png" alt="screenshot35" width="80%"/><br/><br/>
+<img src="images/screenshot36.png" alt="screenshot36" width="80%"/><br/><br/>
+<img src="images/screenshot37.png" alt="screenshot37" width="80%"/><br/><br/>
+<img src="images/screenshot38.png" alt="screenshot38" width="80%"/><br/><br/>
 <sub><i>Tor Browser, onion directory sites and the Facebook onion service</i></sub>
 
 </div>
@@ -308,7 +312,7 @@ After installing and connecting the **Tor Browser**, dark-web sources were searc
 
 <div align="center">
 
-<img src="images/Screenshot_38.png" alt="Screenshot 38" width="70%"/><br/><br/>
+<img src="images/screenshot39.png" alt="screenshot39" width="70%"/><br/><br/>
 <sub><i>whois zomato.com</i></sub>
 
 </div>
@@ -317,8 +321,8 @@ After installing and connecting the **Tor Browser**, dark-web sources were searc
 
 <div align="center">
 
-<img src="images/Screenshot_39.png" alt="Screenshot 39" width="70%"/><br/><br/>
-<img src="images/Screenshot_40.png" alt="Screenshot 40" width="70%"/><br/><br/>
+<img src="images/screenshot40.png" alt="screenshot40" width="70%"/><br/><br/>
+<img src="images/screenshot41.png" alt="screenshot41" width="70%"/><br/><br/>
 <sub><i>`nslookup zomato.com` and `dig zomato.com`</i></sub>
 
 </div>
@@ -329,9 +333,9 @@ Certificate-transparency logs (crt.sh) and other public sources reveal subdomain
 
 <div align="center">
 
-<img src="images/Screenshot_41.png" alt="Screenshot 41" width="80%"/><br/><br/>
-<img src="images/Screenshot_42.png" alt="Screenshot 42" width="80%"/><br/><br/>
-<img src="images/Screenshot_43.png" alt="Screenshot 43" width="80%"/><br/><br/>
+<img src="images/screenshot42.png" alt="screenshot42" width="80%"/><br/><br/>
+<img src="images/screenshot43.png" alt="screenshot43" width="80%"/><br/><br/>
+<img src="images/screenshot44.png" alt="screenshot44" width="80%"/><br/><br/>
 <sub><i>crt.sh certificate-transparency search for zomato.com</i></sub>
 
 </div>
@@ -350,16 +354,16 @@ site:zomato.com ext:js "api"
 
 <div align="center">
 
-<img src="images/Screenshot_44.png" alt="Screenshot 44" width="80%"/><br/><br/>
-<img src="images/Screenshot_45.png" alt="Screenshot 45" width="80%"/><br/><br/>
+<img src="images/screenshot45.png" alt="screenshot45" width="80%"/><br/><br/>
+<img src="images/screenshot46.png" alt="screenshot46" width="80%"/><br/><br/>
 <sub><i>filetype dork</i></sub>
 
 </div>
 <div align="center">
 
-<img src="images/Screenshot_46.png" alt="Screenshot 46" width="80%"/><br/><br/>
-<img src="images/Screenshot_47.png" alt="Screenshot 47" width="80%"/><br/><br/>
-<img src="images/Screenshot_48.png" alt="Screenshot 48" width="80%"/><br/><br/>
+<img src="images/screenshot47.png" alt="screenshot47" width="80%"/><br/><br/>
+<img src="images/screenshot48.png" alt="screenshot48" width="80%"/><br/><br/>
+<img src="images/screenshot49.png" alt="screenshot49" width="80%"/><br/><br/>
 <sub><i>intitle:"index of" dork</i></sub>
 
 </div>
@@ -368,7 +372,7 @@ site:zomato.com ext:js "api"
 
 <div align="center">
 
-<img src="images/Screenshot_49.png" alt="Screenshot 49" width="70%"/><br/><br/>
+<img src="images/screenshot50.png" alt="screenshot50" width="70%"/><br/><br/>
 <sub><i>Same dork on Yahoo</i></sub>
 
 </div>
@@ -377,13 +381,13 @@ site:zomato.com ext:js "api"
 
 <div align="center">
 
-<img src="images/Screenshot_50.png" alt="Screenshot 50" width="80%"/><br/><br/>
+<img src="images/screenshot51.png" alt="screenshot51" width="80%"/><br/><br/>
 <sub><i>Google result</i></sub>
 
 </div>
 <div align="center">
 
-<img src="images/Screenshot_51.png" alt="Screenshot 51" width="80%"/><br/><br/>
+<img src="images/screenshot52.png" alt="screenshot52" width="80%"/><br/><br/>
 <sub><i>Yahoo result</i></sub>
 
 </div>
@@ -394,10 +398,10 @@ site:zomato.com ext:js "api"
 
 <div align="center">
 
-<img src="images/Screenshot_52.png" alt="Screenshot 52" width="80%"/><br/><br/>
-<img src="images/Screenshot_53.png" alt="Screenshot 53" width="80%"/><br/><br/>
-<img src="images/Screenshot_54.png" alt="Screenshot 54" width="80%"/><br/><br/>
-<img src="images/Screenshot_55.png" alt="Screenshot 55" width="80%"/><br/><br/>
+<img src="images/screenshot53.png" alt="screenshot53" width="80%"/><br/><br/>
+<img src="images/screenshot54.png" alt="screenshot54" width="80%"/><br/><br/>
+<img src="images/screenshot55.png" alt="screenshot55" width="80%"/><br/><br/>
+<img src="images/screenshot56.png" alt="screenshot56" width="80%"/><br/><br/>
 <sub><i>Archive-based site map visualisations</i></sub>
 
 </div>
@@ -406,12 +410,12 @@ site:zomato.com ext:js "api"
 
 <div align="center">
 
-<img src="images/Screenshot_56.png" alt="Screenshot 56" width="80%"/><br/><br/>
-<img src="images/Screenshot_57.png" alt="Screenshot 57" width="80%"/><br/><br/>
-<img src="images/Screenshot_58.png" alt="Screenshot 58" width="80%"/><br/><br/>
-<img src="images/Screenshot_59.png" alt="Screenshot 59" width="80%"/><br/><br/>
-<img src="images/Screenshot_60.png" alt="Screenshot 60" width="80%"/><br/><br/>
-<img src="images/Screenshot_61.png" alt="Screenshot 61" width="80%"/><br/><br/>
+<img src="images/screenshot57.png" alt="screenshot57" width="80%"/><br/><br/>
+<img src="images/screenshot58.png" alt="screenshot58" width="80%"/><br/><br/>
+<img src="images/screenshot59.png" alt="screenshot59" width="80%"/><br/><br/>
+<img src="images/screenshot60.png" alt="screenshot60" width="80%"/><br/><br/>
+<img src="images/screenshot61.png" alt="screenshot61" width="80%"/><br/><br/>
+<img src="images/screenshot62.png" alt="screenshot62" width="80%"/><br/><br/>
 <sub><i>DNS records and subdomain lists from public databases</i></sub>
 
 </div>
@@ -432,8 +436,8 @@ Sublist3r queried many search engines and services and found **52 unique subdoma
 
 <div align="center">
 
-<img src="images/Screenshot_62.png" alt="Screenshot 62" width="80%"/><br/><br/>
-<img src="images/Screenshot_63.png" alt="Screenshot 63" width="80%"/><br/><br/>
+<img src="images/screenshot63.png" alt="screenshot63" width="80%"/><br/><br/>
+<img src="images/screenshot64.png" alt="screenshot64" width="80%"/><br/><br/>
 <sub><i>Sublist3r basic enumeration</i></sub>
 
 </div>
@@ -446,8 +450,8 @@ sublist3r -d zomato.com -p 80,443,8080,8443
 
 <div align="center">
 
-<img src="images/Screenshot_64.png" alt="Screenshot 64" width="80%"/><br/><br/>
-<img src="images/Screenshot_65.png" alt="Screenshot 65" width="80%"/><br/><br/>
+<img src="images/screenshot65.png" alt="screenshot65" width="80%"/><br/><br/>
+<img src="images/screenshot66.png" alt="screenshot66" width="80%"/><br/><br/>
 <sub><i>Sublist3r with port scan</i></sub>
 
 </div>
@@ -456,8 +460,8 @@ sublist3r -d zomato.com -p 80,443,8080,8443
 
 <div align="center">
 
-<img src="images/Screenshot_66.png" alt="Screenshot 66" width="80%"/><br/><br/>
-<img src="images/Screenshot_67.png" alt="Screenshot 67" width="80%"/><br/><br/>
+<img src="images/screenshot67.png" alt="screenshot67" width="80%"/><br/><br/>
+<img src="images/screenshot68.png" alt="screenshot68" width="80%"/><br/><br/>
 <sub><i>Live output while scanning</i></sub>
 
 </div>
@@ -466,7 +470,7 @@ sublist3r -d zomato.com -p 80,443,8080,8443
 
 <div align="center">
 
-<img src="images/Screenshot_68.png" alt="Screenshot 68" width="60%"/><br/><br/>
+<img src="images/screenshot69.png" alt="screenshot69" width="60%"/><br/><br/>
 <sub><i>Knockpy output</i></sub>
 
 </div>
@@ -479,8 +483,8 @@ ffuf -w /usr/share/wordlists/dirb/common.txt -u https://zomato.com/FUZZ -v
 
 <div align="center">
 
-<img src="images/Screenshot_69.png" alt="Screenshot 69" width="80%"/><br/><br/>
-<img src="images/Screenshot_70.png" alt="Screenshot 70" width="80%"/><br/><br/>
+<img src="images/screenshot70.png" alt="screenshot70" width="80%"/><br/><br/>
+<img src="images/screenshot71.png" alt="screenshot71" width="80%"/><br/><br/>
 <sub><i>ffuf directory and file discovery, with status 301 redirects</i></sub>
 
 </div>
@@ -491,9 +495,9 @@ ffuf -w /usr/share/wordlists/dirb/common.txt -u https://zomato.com/FUZZ -v
 
 <div align="center">
 
-<img src="images/Screenshot_71.png" alt="Screenshot 71" width="80%"/><br/><br/>
-<img src="images/Screenshot_72.png" alt="Screenshot 72" width="80%"/><br/><br/>
-<img src="images/Screenshot_73.png" alt="Screenshot 73" width="80%"/><br/><br/>
+<img src="images/screenshot72.png" alt="screenshot72" width="80%"/><br/><br/>
+<img src="images/screenshot73.png" alt="screenshot73" width="80%"/><br/><br/>
+<img src="images/screenshot74.png" alt="screenshot74" width="80%"/><br/><br/>
 <sub><i>Name-server and dig results</i></sub>
 
 </div>
@@ -506,7 +510,7 @@ amass enum -passive -d zomato.com
 
 <div align="center">
 
-<img src="images/Screenshot_74.png" alt="Screenshot 74" width="80%"/><br/><br/>
+<img src="images/screenshot75.png" alt="screenshot75" width="80%"/><br/><br/>
 <sub><i>Amass relationship graph: NS, MX, CNAME and netblocks</i></sub>
 
 </div>
@@ -515,8 +519,8 @@ amass enum -passive -d zomato.com
 
 <div align="center">
 
-<img src="images/Screenshot_75.png" alt="Screenshot 75" width="80%"/><br/><br/>
-<img src="images/Screenshot_76.png" alt="Screenshot 76" width="80%"/><br/><br/>
+<img src="images/screenshot76.png" alt="screenshot76" width="80%"/><br/><br/>
+<img src="images/screenshot77.png" alt="screenshot77" width="80%"/><br/><br/>
 <sub><i>Shodan host view and SSL certificate details for AWS-hosted IPs</i></sub>
 
 </div>
@@ -540,19 +544,19 @@ The server header reveals **`awselb/2.0`**, so the site sits behind an AWS load 
 
 <div align="center">
 
-<img src="images/Screenshot_77.png" alt="Screenshot 77" width="80%"/><br/><br/>
-<img src="images/Screenshot_78.png" alt="Screenshot 78" width="80%"/><br/><br/>
-<img src="images/Screenshot_79.png" alt="Screenshot 79" width="80%"/><br/><br/>
+<img src="images/screenshot78.png" alt="screenshot78" width="80%"/><br/><br/>
+<img src="images/screenshot79.png" alt="screenshot79" width="80%"/><br/><br/>
+<img src="images/screenshot80.png" alt="screenshot80" width="80%"/><br/><br/>
 <sub><i>Nmap aggressive and service-detection scans</i></sub>
 
 </div>
 <div align="center">
 
-<img src="images/Screenshot_80.png" alt="Screenshot 80" width="80%"/><br/><br/>
-<img src="images2/Screenshot_81.png" alt="Screenshot 81" width="80%"/><br/><br/>
-<img src="images2/Screenshot_82.png" alt="Screenshot 82" width="80%"/><br/><br/>
-<img src="images2/Screenshot_83.png" alt="Screenshot 83" width="80%"/><br/><br/>
-<img src="images2/Screenshot_84.png" alt="Screenshot 84" width="80%"/><br/><br/>
+<img src="images2/screenshot81.png" alt="screenshot81" width="80%"/><br/><br/>
+<img src="images2/screenshot82.png" alt="screenshot82" width="80%"/><br/><br/>
+<img src="images2/screenshot83.png" alt="screenshot83" width="80%"/><br/><br/>
+<img src="images2/screenshot84.png" alt="screenshot84" width="80%"/><br/><br/>
+<img src="images2/screenshot85.png" alt="screenshot85" width="80%"/><br/><br/>
 <sub><i>Server header awselb/2.0 and further Nmap results</i></sub>
 
 </div>
@@ -565,8 +569,8 @@ nmap --script dns-brute zomato.com -oN zomato_subdomains.txt
 
 <div align="center">
 
-<img src="images2/Screenshot_85.png" alt="Screenshot 85" width="80%"/><br/><br/>
-<img src="images2/Screenshot_86.png" alt="Screenshot 86" width="80%"/><br/><br/>
+<img src="images2/screenshot86.png" alt="screenshot86" width="80%"/><br/><br/>
+<img src="images2/screenshot87.png" alt="screenshot87" width="80%"/><br/><br/>
 <sub><i>dns-brute discovering upload, mail, blog, www and mobile hosts</i></sub>
 
 </div>
@@ -581,13 +585,13 @@ theHarvester -d zomato.com -b all -f initial_harvest
 
 <div align="center">
 
-<img src="images2/Screenshot_87.png" alt="Screenshot 87" width="80%"/><br/><br/>
-<img src="images2/Screenshot_88.png" alt="Screenshot 88" width="80%"/><br/><br/>
-<img src="images2/Screenshot_89.png" alt="Screenshot 89" width="80%"/><br/><br/>
-<img src="images2/Screenshot_90.png" alt="Screenshot 90" width="80%"/><br/><br/>
-<img src="images2/Screenshot_91.png" alt="Screenshot 91" width="80%"/><br/><br/>
-<img src="images2/Screenshot_92.png" alt="Screenshot 92" width="80%"/><br/><br/>
-<img src="images2/Screenshot_93.png" alt="Screenshot 93" width="80%"/><br/><br/>
+<img src="images2/screenshot88.png" alt="screenshot88" width="80%"/><br/><br/>
+<img src="images2/screenshot89.png" alt="screenshot89" width="80%"/><br/><br/>
+<img src="images2/screenshot90.png" alt="screenshot90" width="80%"/><br/><br/>
+<img src="images2/screenshot91.png" alt="screenshot91" width="80%"/><br/><br/>
+<img src="images2/screenshot92.png" alt="screenshot92" width="80%"/><br/><br/>
+<img src="images2/screenshot93.png" alt="screenshot93" width="80%"/><br/><br/>
+<img src="images2/screenshot94.png" alt="screenshot94" width="80%"/><br/><br/>
 <sub><i>theHarvester collecting hosts, emails and IPs from multiple sources</i></sub>
 
 </div>
@@ -605,20 +609,20 @@ marketplace install all
 
 <div align="center">
 
-<img src="images2/Screenshot_94.png" alt="Screenshot 94" width="80%"/><br/><br/>
-<img src="images2/Screenshot_95.png" alt="Screenshot 95" width="80%"/><br/><br/>
-<img src="images2/Screenshot_96.png" alt="Screenshot 96" width="80%"/><br/><br/>
-<img src="images2/Screenshot_97.png" alt="Screenshot 97" width="80%"/><br/><br/>
-<img src="images2/Screenshot_98.png" alt="Screenshot 98" width="80%"/><br/><br/>
+<img src="images2/screenshot95.png" alt="screenshot95" width="80%"/><br/><br/>
+<img src="images2/screenshot96.png" alt="screenshot96" width="80%"/><br/><br/>
+<img src="images2/screenshot97.png" alt="screenshot97" width="80%"/><br/><br/>
+<img src="images2/screenshot98.png" alt="screenshot98" width="80%"/><br/><br/>
+<img src="images2/screenshot99.png" alt="screenshot99" width="80%"/><br/><br/>
 <sub><i>Recon-ng workspace, module installation and domains</i></sub>
 
 </div>
 <div align="center">
 
-<img src="images2/Screenshot_99.png" alt="Screenshot 99" width="80%"/><br/><br/>
-<img src="images2/Screenshot_100.png" alt="Screenshot 100" width="80%"/><br/><br/>
-<img src="images2/Screenshot_101.png" alt="Screenshot 101" width="80%"/><br/><br/>
-<img src="images2/Screenshot_102.png" alt="Screenshot 102" width="80%"/><br/><br/>
+<img src="images2/screenshot100.png" alt="screenshot100" width="80%"/><br/><br/>
+<img src="images2/screenshot101.png" alt="screenshot101" width="80%"/><br/><br/>
+<img src="images2/screenshot102.png" alt="screenshot102" width="80%"/><br/><br/>
+<img src="images2/screenshot103.png" alt="screenshot103" width="80%"/><br/><br/>
 <sub><i>Recon-ng host results (community, zwstatic, mcp-server, zpay and more)</i></sub>
 
 </div>
@@ -627,9 +631,9 @@ marketplace install all
 
 <div align="center">
 
-<img src="images2/Screenshot_103.png" alt="Screenshot 103" width="80%"/><br/><br/>
-<img src="images2/Screenshot_104.png" alt="Screenshot 104" width="80%"/><br/><br/>
-<img src="images2/Screenshot_105.png" alt="Screenshot 105" width="80%"/><br/><br/>
+<img src="images2/screenshot104.png" alt="screenshot104" width="80%"/><br/><br/>
+<img src="images2/screenshot105.png" alt="screenshot105" width="80%"/><br/><br/>
+<img src="images2/screenshot106.png" alt="screenshot106" width="80%"/><br/><br/>
 <sub><i>SpiderFoot scan status, correlations and data types</i></sub>
 
 </div>
@@ -648,8 +652,8 @@ nikto -h zomato.com
 
 <div align="center">
 
-<img src="images2/Screenshot_106.png" alt="Screenshot 106" width="80%"/><br/><br/>
-<img src="images2/Screenshot_107.png" alt="Screenshot 107" width="80%"/><br/><br/>
+<img src="images2/screenshot107.png" alt="screenshot107" width="80%"/><br/><br/>
+<img src="images2/screenshot108.png" alt="screenshot108" width="80%"/><br/><br/>
 <sub><i>Nikto output: anti-clickjacking and X-Content-Type-Options findings</i></sub>
 
 </div>
@@ -702,8 +706,8 @@ The lab shows how much can be learned about an organisation from public sources 
 ```text
 .
 ├── README.md
-├── images/        # ai.png banner + Screenshot_1 … Screenshot_80
-└── images2/       # Screenshot_81 … Screenshot_107
+├── images/        # ai.png banner + screenshot2.png … screenshot80.png
+└── images2/       # screenshot81.png … screenshot108.png
 ```
 
 ---
