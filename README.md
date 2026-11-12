@@ -25,17 +25,6 @@ Click any lab below to open its folder.
 
 ---
 
-## Table of Contents
-
-| Section | What it covers |
-|---|---|
-| [All Labs in This Repository](#all-labs-in-this-repository) | Links to every lab folder |
-| [Overview](#overview) | What this lab is about and which tools are used |
-| [Step by Step](#step-by-step) | All 13 steps with their screenshots |
-| [What I Learned](#what-i-learned) | My personal takeaways from the lab |
-| [Conclusion](#conclusion) | Final summary of the lab |
-
----
 
 ## Overview
 
