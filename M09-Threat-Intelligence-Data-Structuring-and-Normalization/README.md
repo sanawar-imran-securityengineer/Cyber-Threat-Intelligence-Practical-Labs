@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ai.png" alt="Cover" width="300">
+  <img src="images/ai.png" alt="Cover" width="700">
 </p>
 
 # Data Structuring and Normalization 
