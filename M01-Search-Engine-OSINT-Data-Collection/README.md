@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/ai.png" alt="Air University" width="450"/>
+<img src="images/ai.png" alt="Air University" width="700"/>
 
 # 🕵️ Cyber Threat Intelligence: Lab Task Report
 
