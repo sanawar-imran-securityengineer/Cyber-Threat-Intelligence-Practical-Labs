@@ -75,7 +75,7 @@ This repository documents a hands-on exercise from the Cyber Threat Intelligence
 #### Figure 3: Account registration
 
 <p align="center">
-  <img src="images/screenshot3.png" width="800" alt="Account registration">
+  <img src="images/screenshot30.png" width="800" alt="Account registration">
 </p>
 
 > **Description:** A new Maltego account is created. The registration form is filled in to generate a new user ID.
@@ -83,7 +83,7 @@ This repository documents a hands-on exercise from the Cyber Threat Intelligence
 #### Figure 4: Logging in to Maltego
 
 <p align="center">
-  <img src="images/screenshot4.png" width="800" alt="Logging in to Maltego">
+  <img src="images/screenshot40.png" width="800" alt="Logging in to Maltego">
 </p>
 
 > **Description:** The user logs in with the newly created credentials. Authentication succeeds and the Maltego workspace becomes available.
