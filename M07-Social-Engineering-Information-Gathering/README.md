@@ -2,7 +2,7 @@
   <img src="images/ai.png" alt="Cyber Security Lab Tasks" width="700">
 </p>
 
-<h1 align="center">Cyber Security Lab Tasks</h1>
+<h1 align="center">Information Gathering using Social Engineering</h1>
 <h3 align="center">Social Engineering • GoPhish Phishing Framework • Cyber Threat Intelligence</h3>
 
 <p align="center">
