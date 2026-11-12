@@ -1,7 +1,6 @@
-<img src="images/ai.png" alt="ai.png" width="700">
+<img src="M15-Threat-Intelligence-Sharing/images/ai.png" alt="ai.png" width="1000">
 
-
-# Cyber Threat Intelligence Lab: IoC Creation and VirusTotal Analysis
+# Cyber Threat Intelligence 
 
 ## All Labs in This Repository
 
