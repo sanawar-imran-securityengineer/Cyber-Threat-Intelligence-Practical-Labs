@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="images/ai.png" alt="Cover" width="700">
+  <img src="images/ai.png" alt="Cover" width="800">
 </p>
 
 # **Data Analysis, Threat Modeling & Reporting Tools**
 
-**Subject:** Cyber Threat Intelligence (CTI)
 
 ---
 
